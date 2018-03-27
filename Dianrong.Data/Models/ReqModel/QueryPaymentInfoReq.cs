@@ -1,0 +1,17 @@
+using Newtonsoft.Json;
+
+namespace Dianrong.Data.Models.ReqModel
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    public class QueryPaymentInfoReq:DianrongBaseReqModel
+    {
+        /// <summary>
+        /// 贷款申请Id
+        /// </summary>
+        /// <returns></returns>
+        [JsonProperty("loanAppId")]
+        public string LoanAppId { get; set; }
+    }
+}

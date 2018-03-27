@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Site.Lib</name>
+    </assembly>
+    <members>
+        <member name="T:Site.Lib.IService.IDianrongService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Site.Lib.IService.IDianrongService.CompanyCredit(Dianrong.Data.Models.ReqModel.CompanyCreditReq)">
+            <summary>
+            企业基本信息推送接口
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.Lib.IService.IDianrongService.ScpChain(Dianrong.Data.Models.ReqModel.ScpChainReq)">
+            <summary>
+            贷款申请接口
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.Lib.IService.IDianrongService.QueryLoanInfo(Dianrong.Data.Models.ReqModel.QueryLoanInfoReq)">
+            <summary>
+            查询贷款信息
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.Lib.IService.IDianrongService.SignUrl(Dianrong.Data.Models.ReqModel.SignUrlReq)">
+            <summary>
+            获取在线签约URL
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.Lib.IService.IDianrongService.QueryPaymentInfo(Dianrong.Data.Models.ReqModel.QueryPaymentInfoReq)">
+            <summary>
+            查询还款信息
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.Lib.IService.IDianrongService.QueryRepaymentPlan(Dianrong.Data.Models.ReqModel.QueryRepaymentPlanReq)">
+            <summary>
+            还款计划查询接口
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.Lib.IService.IDianrongService.DianRongRepayment(Dianrong.Data.Models.ReqModel.RepaymentReq)">
+            <summary>
+            
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.Lib.IService.IDianrongService.Compliance(Dianrong.Data.Models.ReqModel.ComplianceReq)">
+            <summary>
+            补充合规信息
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.Lib.IService.IDianrongService.CheckBlackList(Dianrong.Data.Models.ReqModel.CheckBlackListReq)">
+            <summary>
+            黑名单查询接口
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Site.Lib.Model.ConfigModel.DianrongConfigModel">
+            <summary>
+            点融url配置
+            </summary>
+        </member>
+        <member name="P:Site.Lib.Model.ConfigModel.DianrongConfigModel.ChannelId">
+            <summary>
+            通道id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Site.Lib.Model.ConfigModel.DianrongConfigModel.CompanyCreditUrl">
+            <summary>
+            企业基本信息推送接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Site.Lib.Model.ConfigModel.DianrongConfigModel.ScpChainUrl">
+            <summary>
+            贷款申请接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Site.Lib.Model.ConfigModel.DianrongConfigModel.QueryLoanInfoUrl">
+            <summary>
+            贷款状态查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Site.Lib.Model.ConfigModel.DianrongConfigModel.SignUrl">
+            <summary>
+            获取在线签约URL
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Site.Lib.Model.ConfigModel.DianrongConfigModel.QueryPaymentInfoUrl">
+            <summary>
+            查询还款信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Site.Lib.Model.ConfigModel.DianrongConfigModel.QueryRepaymentPlanUrl">
+            <summary>
+            还款计划查询接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Site.Lib.Model.ConfigModel.DianrongConfigModel.GetRepaymentUrl">
+            <summary>
+            还款界面url
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Site.Lib.Model.ConfigModel.DianrongConfigModel.ComplianceUrl">
+            <summary>
+            合规信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Site.Lib.Model.ConfigModel.DianrongConfigModel.CheckBlackListUrl">
+            <summary>
+            黑名单查询接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Site.Lib.Model.DomainModel.JWTConfigModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Site.Lib.Model.DomainModel.JWTConfigModel.SecretKey">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Site.Lib.Model.DomainModel.JWTConfigModel.Issuer">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Site.Lib.Model.DomainModel.JWTConfigModel.Audience">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Site.Lib.Model.QM.LoginQM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Site.Lib.Model.QM.LoginQM.UserName">
+            <summary>
+            用户名
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Site.Lib.Model.QM.LoginQM.Pwd">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Site.Lib.Model.VM.LoginVM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Site.Lib.Model.VM.LoginVM.UserId">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Site.Lib.Model.VM.LoginVM.UserName">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Site.Lib.Model.VM.LoginVM.Token">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Site.Lib.Service.DianrongService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Site.Lib.Service.DianrongService.#ctor(Microsoft.Extensions.Options.IOptions{Site.Lib.Model.ConfigModel.DianrongConfigModel})">
+            <summary>
+            
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="M:Site.Lib.Service.DianrongService.CompanyCredit(Dianrong.Data.Models.ReqModel.CompanyCreditReq)">
+            <summary>
+            
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.Lib.Service.DianrongService.QueryLoanInfo(Dianrong.Data.Models.ReqModel.QueryLoanInfoReq)">
+            <summary>
+            查询贷款信息
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.Lib.Service.DianrongService.ScpChain(Dianrong.Data.Models.ReqModel.ScpChainReq)">
+            <summary>
+            
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.Lib.Service.DianrongService.SignUrl(Dianrong.Data.Models.ReqModel.SignUrlReq)">
+            <summary>
+            
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.Lib.Service.DianrongService.QueryPaymentInfo(Dianrong.Data.Models.ReqModel.QueryPaymentInfoReq)">
+            <summary>
+            
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.Lib.Service.DianrongService.QueryRepaymentPlan(Dianrong.Data.Models.ReqModel.QueryRepaymentPlanReq)">
+            <summary>
+            
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.Lib.Service.DianrongService.DianRongRepayment(Dianrong.Data.Models.ReqModel.RepaymentReq)">
+            <summary>
+            还款界面
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.Lib.Service.DianrongService.Compliance(Dianrong.Data.Models.ReqModel.ComplianceReq)">
+            <summary>
+            补充合规信息
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.Lib.Service.DianrongService.CheckBlackList(Dianrong.Data.Models.ReqModel.CheckBlackListReq)">
+            <summary>
+            黑名单
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Site.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Site.WebApi.Controllers.DianrongController.CompanyCredit(Dianrong.Data.Models.ReqModel.CompanyCreditReq)">
+            <summary>
+            企业基本信息推送接口
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.WebApi.Controllers.DianrongController.ScpChain(Dianrong.Data.Models.ReqModel.ScpChainReq)">
+            <summary>
+            贷款申请
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.WebApi.Controllers.DianrongController.QueryLoanInfo(Dianrong.Data.Models.ReqModel.QueryLoanInfoReq)">
+            <summary>
+            查询贷款信息
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.WebApi.Controllers.DianrongController.QueryPaymentInfo(Dianrong.Data.Models.ReqModel.QueryPaymentInfoReq)">
+            <summary>
+            查询还款信息
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.WebApi.Controllers.DianrongController.ScpChain(Dianrong.Data.Models.ReqModel.QueryRepaymentPlanReq)">
+            <summary>
+            还款计划查询接口
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.WebApi.Controllers.DianrongController.ScpChain(Dianrong.Data.Models.ReqModel.SignUrlReq)">
+            <summary>
+            获取在线签约URL
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.WebApi.Controllers.DianrongController.GetRepaymentUrl(Dianrong.Data.Models.ReqModel.RepaymentReq)">
+            <summary>
+            
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.WebApi.Controllers.DianrongController.Compliance(Dianrong.Data.Models.ReqModel.ComplianceReq)">
+            <summary>
+            补充合规信息
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.WebApi.Controllers.DianrongController.CheckBlackList(Dianrong.Data.Models.ReqModel.CheckBlackListReq)">
+            <summary>
+            黑名单
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Site.WebApi.Filters.ApiExceptionFilterAttribute">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Site.WebApi.Filters.ApiExceptionFilterAttribute.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Site.WebApi.Filters.ApiExceptionFilterAttribute.#ctor(NLog.ILogger)">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Site.WebApi.Filters.ApiExceptionFilterAttribute.OnExceptionAsync(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Site.WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
